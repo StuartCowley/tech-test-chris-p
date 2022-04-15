@@ -1,0 +1,19 @@
+.searchForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-input {
+    height: 50px;
+    border-radius: 11px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.search-button {
+    border-radius: 0px;
+    padding: 5px;
+    margin: auto;
+}
+

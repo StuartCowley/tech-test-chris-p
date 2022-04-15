@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# :moon: React Technical Test/NASA Image Search - Manchester Codes - Chris Peakin - Oct 2021 Cohort :moon:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose of the Technical Test
 
-## Available Scripts
+What has been requested as part of this technical test is to create a simple App which receives a search term from the user, and then uses that term to return pictures from NASA's own database and shows them to the user.
 
-In the project directory, you can run:
+## Installing, testing and running the App
 
-### `npm start`
+Firstly, clone the repo and run `npm i` to install the required dependencies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run `npm start` in your terminal, and the App will compile on localhost 3000 and your browser will open automatically.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run `npm test` to run the tests if desired.
 
-### `npm test`
+The instructions for running the App are very simple and are displayed in your browser. All you have to do is enter a search term and hit the `Tally Ho!` button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Packages used to make and test the App
 
-### `npm run build`
+This App was created using React, PropTypes and Axios. Jest has been used to perform the testing. Links are provided below.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Further developments for the App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If possible, one small thing I'd like to add is a number to each of the images.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+### Desktop
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![desktop](https://github.com/chris-peakin/tech-test/blob/main/screenshots/desktop.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://github.com/chris-peakin/tech-test/blob/main/screenshots/mobile.png" width="300" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Links
 
-## Learn More
+### Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React: https://reactjs.org/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Prop Types: https://www.npmjs.com/package/prop-types
 
-### Code Splitting
+Axios: https://www.npmjs.com/package/axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Development Dependencies
 
-### Analyzing the Bundle Size
+Jest: https://jestjs.io/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Other
 
-### Making a Progressive Web App
+Manchester Codes: https://www.manchestercodes.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+NASA Image Search: https://images.nasa.gov/
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Chris Peakin - Oct 2021 Cohort - Manchester Codes
